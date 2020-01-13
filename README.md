@@ -22,6 +22,14 @@ cd EmuELEC
 ```
 resulting zip files will be inside EmuELEC/repo
 
+**Building with docker**
+
+    chmod 777 .
+    docker-compose build
+    docker-compose run emuelec
+    $ PROJECT=Amlogic ARCH=arm DISTRO=EmuELEC make image
+
+
 **Remember to use the proper DTB for your device!**
 
 Need help? have suggestions? check out the Wiki at https://github.com/shantigilbert/EmuELEC/wiki or join us on our EmuELEC Discord: https://discord.gg/QqGYBzG
@@ -32,3 +40,5 @@ Please note, this is mostly a personal project made for my S905 box I can't guar
 I work on this project on my personal time, I don't make any money out of it, so it takes a while for me to properly test any changes, but I will do my best to help you fix issues you might have on other boxes limited to my time and experience. 
 
 Happy retrogaming! 
+
+
