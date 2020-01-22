@@ -2,8 +2,8 @@ version: "2.1"
 services:
   emuelec:
     build:
-      context: ./
-      dockerfile: ./Dockerfile
+      context: ./tools/docker
+      dockerfile: ./bionic/Dockerfile
     volumes:
       - ./:/opt/EmuELEC
     working_dir: /opt/EmuELEC
